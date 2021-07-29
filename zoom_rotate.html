@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title></title>
+  <style>
+  .zoom {
+    position:absolute;
+     top:50%;
+     left:45%;
+
+     background-image: url("green_icon.png");
+     background-repeat: no-repeat;
+     transition: transform .5s;
+     width: 150px;
+     height: 150px;
+     vertical-align: center;
+  }
+
+  .zoom:hover {
+   transform: scale(77);
+ }
+
+
+ .zoom:active{
+  transform: rotate(180deg);
+ }
+
+  </style>
+</head>
+<body>
+  <div class="zoom"></div>
+</body>
+</html>
