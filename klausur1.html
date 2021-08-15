@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>Klausur 1</title>
+  <style>
+
+    form{
+     background-image: url("trianglify400.png");
+     background-repeat: no-repeat
+    }
+
+    .titel{
+      font-size:4em;
+      font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.15em;
+    }
+    #blocked
+    {
+      display: block;
+    }
+
+    td{
+      padding-bottom:0.5em;
+    }
+
+    select {
+      width: 250px;
+    }
+
+  </style>
+</head>
+<body>
+  <form>
+  <div class="titel">UMFRAGE</div>
+  <table>
+    <tr>
+      <td>Wohnort:</td>
+      <td><input type="text" id=firstname" value="Helmut" size="25" maxlength="5"></td>
+    </tr>
+    <tr>
+      <td>Beschäftigungsstelle:</td>
+      <td><span id="blocked"><input type="radio" name="group">selbstständig</input></span>
+      <span id="blocked"><input type="radio" name="group">angestellt</input></span>
+      <span id="blocked"><input type="radio" name="group">ohne Beschäftigung</input></span>
+    </td>
+    </tr>
+    <tr>
+      <td>Altersgrupppen:</td>
+      <td>
+        <select size="3" >
+          <option>unter 18</option>
+          <option>18 bist 65</option>
+          <option>über 65</option>
+        </select></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button>absenden</button></td>
+    </tr>
+  </table>
+  </form>
+</body>
+</html>
