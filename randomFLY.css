@@ -1,0 +1,29 @@
+  .centrum
+            {
+            	height: 6px;
+            	left: 0px;
+            	position: fixed;
+            	top: 20%;
+            	width: 550px;
+            	animation: fly_horizontal s ease-in-out 0s infinite;
+            }
+            
+            .moveY
+            {
+            	height: 950px;
+            	position: fixed;
+            	top: 20%;
+            	width: 150px;
+            	animation: rotate s linear 0s infinite;
+           }
+           
+            #bong
+            {
+            	bottom: 0px;
+            	position: fixed;
+                background-image: url("img/thomas.png");
+                background-repeat: no-repeat;
+                width: 120px;
+                height: 158px;
+                 cursor: url("img/aim.png"), pointer;
+            }
